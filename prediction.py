@@ -30,42 +30,7 @@ df.isnull().sum()
 df.describe([0, 0.05, 0.50, 0.95, 0.99, 1]).T
 
 def grabColNames(dataframe, catTh=10, carTh=20):
-    """
-    Veri setindeki kategorik, numerik ve kategorik fakat kardinal değişkenlerin isimlerini verir.
-Not: Kategorik değişkenlerin içerisine numerik görünümlü kategorik değişkenler de dahildir.
-
-Parameters
-------
-    dataframe: dataframe
-            Değişken isimleri alınmak istenilen dataframe
-    catTh: int, optional
-            numerik fakat kategorik olan değişkenler için sınıf eşik değeri
-    carTh: int, optinal
-            kategorik fakat kardinal değişkenler için sınıf eşik değeri
-
-Returns
-------
-    catCols: list
-            Kategorik değişken listesi
-    numCols: list
-            Numerik değişken listesi
-    catButCar: list
-            Kategorik görünümlü kardinal değişken listesi
-
-Examples
-------
-    import seaborn as sns
-    df = sns.load_dataset("iris")
-    print(grabColNames(df))
-
-
-Notes
-------
-    catCols + numCols + catButCar = toplam değişken sayısı
-    numButCat catCols'un içerisinde.
-    Return olan 3 liste toplamı toplam değişken sayısına eşittir: catCols + numCols + catButCar = değişken sayısı
-
-    """
+    
     # catCols, catButCar
     catCols = [col for col in dataframe.columns if dataframe[col].dtypes == "O"]
     numButCat = [col for col in dataframe.columns if dataframe[col].nunique() < catTh and
