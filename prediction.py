@@ -31,8 +31,6 @@ df.describe([0, 0.05, 0.50, 0.95, 0.99, 1]).T
 
 def grabColNames(dataframe, catTh=10, carTh=20):
     """
-    
-
     Parameters
     ----------
     dataframe : dataframe
@@ -56,13 +54,12 @@ def grabColNames(dataframe, catTh=10, carTh=20):
         import seaborn as sns
         df = sns.load_dataset("iris")
         print(grabColNames(df))
-
+        
     Notes
     ------
         catCols + numCols + catButCar = toplam değişken sayısı
         numButCat catCols'un içerisinde.
         Return olan 3 liste toplamı toplam değişken sayısına eşittir: catCols + numCols + catButCar = değişken sayısı
-        
     """
     # catCols, catButCar
     catCols = [col for col in dataframe.columns if dataframe[col].dtypes == "O"]
