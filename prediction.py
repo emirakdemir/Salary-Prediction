@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 warnings.simplefilter(action="ignore")
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
 
-df = pd.read_csv("C:/Users/emir/OneDrive/Masaüstü/Miuul/machine_learning/maasTahmin/hitters.csv")
+df = pd.read_csv("hitters.csv")
 
 df.head(11)
 df.shape
