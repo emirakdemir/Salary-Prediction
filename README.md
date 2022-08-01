@@ -20,9 +20,9 @@
 • CRBI: Oyuncunun kariyeri boyunca koşu yaptırdırdığı oyuncu sayısı <br/>
 • CWalks: Oyuncun kariyeri boyunca karşı oyuncuya yaptırdığı hata sayısı <br/>
 • League: Oyuncunun sezon sonuna kadar oynadığı ligi gösteren A ve N seviyelerine sahip bir faktör <br/>
-• Division<: 1986 sonunda oyuncunun oynadığı pozisyonu gösteren E ve W seviyelerine sahip bir faktör <br/>
-• PutOuts<: Oyun icinde takım arkadaşınla yardımlaşma <br/>
-• Assits<: 1986-1987 sezonunda oyuncunun yaptığı asist sayısı <br/>
+• Division: 1986 sonunda oyuncunun oynadığı pozisyonu gösteren E ve W seviyelerine sahip bir faktör <br/>
+• PutOuts: Oyun icinde takım arkadaşınla yardımlaşma <br/>
+• Assits: 1986-1987 sezonunda oyuncunun yaptığı asist sayısı <br/>
 • Errors: 1986-1987 sezonundaki oyuncunun hata sayısı <br/>
 • Salary: Oyuncunun 1986-1987 sezonunda aldığı maaş(bin uzerinden) <br/>
 • NewLeague: 1987 sezonunun başında oyuncunun ligini gösteren A ve N seviyelerine sahip bir faktör
