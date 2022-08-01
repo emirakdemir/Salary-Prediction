@@ -1,24 +1,24 @@
-import warnings
-import pandas as pd
-import missingno as msno
 import numpy as np
+import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import missingno as msno
+import warnings
 
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.preprocessing import StandardScaler, RobustScaler
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
-from catboost import CatBoostRegressor
-from lightgbm import LGBMRegressor
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.svm import SVR
 from sklearn.tree import DecisionTreeRegressor
+from sklearn.exceptions import ConvergenceWarning
+from lightgbm import LGBMRegressor
+from catboost import CatBoostRegressor
 from xgboost import XGBRegressor
 from pandas.core.common import SettingWithCopyWarning
-from sklearn.exceptions import ConvergenceWarning
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 170)
@@ -28,6 +28,7 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action="ignore", category=ConvergenceWarning)
 warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
+
 
 
 def outlier_thresholds(dataframe, col_name, q1=0.25, q3=0.75):
@@ -186,20 +187,33 @@ def target_correlation_matrix(dataframe, corr_th=0.5, target="Salary"):
     except:
         print("Yüksek threshold değeri, corr_th değerinizi düşürün!")
         
+        
+        
+        
 df = pd.read_csv("hitters.csv")
+
 df.head()
+
 df.info()
+
 df.shape
+
 df.dtypes
+
 df.tail()
+
 df.isnull()
+
 df.isnull().sum()
+
 df.describe([0, 0.05, 0.50, 0.95, 0.99, 1]).T
+
 
 
 df["Salary"].describe()
 sns.distplot(df.Salary)
 plt.show()
+
 sns.boxplot(df["Salary"])
 plt.show()
 
