@@ -8,7 +8,7 @@
 <br/>
 
 ## *Değişkenler* ##
-• AtBat: 1986-1987 sezonunda bir beyzbol sopası ile topa yapılan vuruş sayısı <br/>
+• <b>AtBat<b>: 1986-1987 sezonunda bir beyzbol sopası ile topa yapılan vuruş sayısı <br/>
 • Hits: 1986-1987 sezonundaki isabet sayısı <br/>
 • HmRun: 1986-1987 sezonundaki en değerli vuruş sayısı <br/>
 • Runs: 1986-1987 sezonunda takımına kazandırdığı sayı <br/>
