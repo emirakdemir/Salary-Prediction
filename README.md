@@ -10,8 +10,8 @@
 • Maaş verileri orijinal olarak Sports Illustrated, 20 Nisan 1987'den alınmıştır.<br/>
 • 1986 ve kariyer istatistikleri, Collier Books, Macmillan Publishing Company, New York tarafından yayınlanan<br/>
 • 1987 Beyzbol Ansiklopedisi Güncellemesinden elde edilmiştir.<br/>
-
-
+<br/>
+<br/>
 • AtBat: 1986-1987 sezonunda bir beyzbol sopası ile topa yapılan vuruş sayısı <br/>
 • Hits: 1986-1987 sezonundaki isabet sayısı <br/>
 • HmRun: 1986-1987 sezonundaki en değerli vuruş sayısı <br/>
