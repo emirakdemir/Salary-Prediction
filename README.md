@@ -31,4 +31,4 @@
 • Assits: 1986-1987 sezonunda oyuncunun yaptığı asist sayısı <br/>
 • Errors: 1986-1987 sezonundaki oyuncunun hata sayısı <br/>
 • Salary: Oyuncunun 1986-1987 sezonunda aldığı maaş(bin uzerinden) <br/>
-• NewLeague: 1987 sezonunun başında oyuncunun ligini gösteren A ve N seviyelerine sahip bir faktör <br/>
+• NewLeague: 1987 sezonunun başında oyuncunun ligini gösteren A ve N seviyelerine sahip bir faktör
