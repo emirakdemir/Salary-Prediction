@@ -190,7 +190,7 @@ def target_correlation_matrix(dataframe, corr_th=0.5, target="Salary"):
         
         
         
-df = pd.read_csv("hitters.csv")
+df = pd.read_csv("C:/Users/emir/OneDrive/Masaüstü/Salary-Prediction/hitters.csv")
 
 df.head()
 
@@ -206,7 +206,7 @@ df.isnull()
 
 df.isnull().sum()
 
-df.describe([0, 0.05, 0.50, 0.95, 0.99, 1]).T
+df.describe()
 
 
 
