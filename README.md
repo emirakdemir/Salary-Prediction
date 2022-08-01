@@ -1,5 +1,5 @@
 
-## SALARY PREDICTİON WITH MACHINE LEARNING
+## **SALARY PREDICTİON WITH MACHINE LEARNING**
 
 • Maaş bilgileri ve 1986 yılına ait kariyer istatistikleri paylaşılan beyzbol oyuncularının maaş tahminleri için geliştirilen makine öğrenmesi modeli.
 
