@@ -1,5 +1,5 @@
 
-# PROJECT # ## SALARY PREDICTİON WITH MACHINE LEARNING ##
+##SALARY PREDICTİON WITH MACHINE LEARNING##
 
 ## *İş Problemi* ##
 • Maaş bilgileri ve 1986 yılına ait kariyer istatistikleri paylaşılan beyzbol oyuncularının maaş tahminleri için bir makine öğrenmesi projesi gerçekleştirilebilir mi?
